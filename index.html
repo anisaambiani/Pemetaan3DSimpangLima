@@ -24,8 +24,24 @@
     //const osmBuildings = await Cesium.createOsmBuildingsAsync();
     //viewer.scene.primitives.add(osmBuildings);
 
-    const tileset = viewer.scene.primitives.add(
-    await Cesium.Cesium3DTileset.fromIonAssetId(2380554, 2380588, 2380593, 2380600, 2380602)
+    const tileset1 = viewer.scene.primitives.add(
+    await Cesium.Cesium3DTileset.fromIonAssetId(2380554)
+    );
+
+    const tileset2 = viewer.scene.primitives.add(
+    await Cesium.Cesium3DTileset.fromIonAssetId(2380588)
+    );
+
+    const tileset3 = viewer.scene.primitives.add(
+    await Cesium.Cesium3DTileset.fromIonAssetId(2380593)
+    );
+
+    const tileset4 = viewer.scene.primitives.add(
+    await Cesium.Cesium3DTileset.fromIonAssetId(2380600)
+    );
+
+    const tileset5 = viewer.scene.primitives.add(
+    await Cesium.Cesium3DTileset.fromIonAssetId(2380602)
     );
 
 
